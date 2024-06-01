@@ -46,7 +46,7 @@ of the offensive line <br />
 #### PlayDirection - direction the play is headed <br />
 #### TimeHandoff - UTC time of the handoff <br />
 #### TimeSnap - UTC time of the snap <br />
-#### **Yards - the yardage gained on the play (RESPONSE VARIABLE)** <br />
+**Yards - the yardage gained on the play (RESPONSE VARIABLE)** <br />
 #### PlayerHeight - player height (ft-in) <br />
 #### PlayerWeight - player weight (lbs) <br />
 #### PlayerBirthDate - birthdate (mm/dd/yyyy) <br />

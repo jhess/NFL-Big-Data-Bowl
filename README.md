@@ -20,50 +20,50 @@ Team - home or away <br />
 X - player position along the long axis of the field. See figure below. <br />
 Y - player position along the short axis of the field. See figure below. <br />
 S - speed in yards/second <br />
-A - acceleration in yards/second^2
-Dis - distance traveled from prior time point, in yards
-Orientation - orientation of player (deg)
-Dir - angle of player motion (deg)
-NflId - a unique identifier of the player
-DisplayName - player's name
-JerseyNumber - jersey number
-Season - year of the season
-YardLine - theyard line of the line of scrimmage
-Quarter - game quarter (1-5, 5 == overtime)
-GameClock - time on the game clock
-PossessionTeam - team with possession
-Down - the down (1-4)
-Distance - yards needed for a first down
-FieldPosition - which side of the field the play is happening on
-HomeScoreBeforePlay - home team score before play started
-VisitorScoreBeforePlay - visitor team score before play started
-NflIdRusher - the NflId of the rushing player
-OffenseFormation - offense formation
-OffensePersonnel - offensive team positional grouping
+A - acceleration in yards/second^2 <br />
+Dis - distance traveled from prior time point, in yards <br />
+Orientation - orientation of player (deg) <br />
+Dir - angle of player motion (deg) <br />
+NflId - a unique identifier of the player <br />
+DisplayName - player's name <br />
+JerseyNumber - jersey number <br />
+Season - year of the season <br />
+YardLine - theyard line of the line of scrimmage <br />
+Quarter - game quarter (1-5, 5 == overtime) <br />
+GameClock - time on the game clock <br />
+PossessionTeam - team with possession <br />
+Down - the down (1-4) <br />
+Distance - yards needed for a first down <br />
+FieldPosition - which side of the field the play is happening on <br />
+HomeScoreBeforePlay - home team score before play started <br />
+VisitorScoreBeforePlay - visitor team score before play started <br />
+NflIdRusher - the NflId of the rushing player <br />
+OffenseFormation - offense formation <br />
+OffensePersonnel - offensive team positional grouping <br />
 DefendersInTheBox - number of defenders lined up near the line of scrimmage, spanning the width
-of the offensive line
-DefensePersonnel - defensive team positional grouping
-PlayDirection - direction the play is headed
-TimeHandoff - UTC time of the handoff
-TimeSnap - UTC time of the snap
-Yards - the yardage gained on the play (RESPONSE VARIABLE)
-PlayerHeight - player height (ft-in)
-PlayerWeight - player weight (lbs)
-PlayerBirthDate - birthdate (mm/dd/yyyy)
-PlayerCollegeName - where the player attended college
-Position - the player's position (the specific role on the field that they typically play)
-HomeTeamAbbr - home team abbreviation
-VisitorTeamAbbr - visitor team abbreviation
-Week - week into the season
-Stadium - stadium where the game is being played
-Location - city where the game is being played
-StadiumType - description of the stadium environment
-Turf - description of the field surface
-GameWeather - description of the game weather
-Temperature - temperature (deg F)
-Humidity - humidity
-WindSpeed - wind speed in miles/hour
-WindDirection - wind direction
+of the offensive line <br />
+DefensePersonnel - defensive team positional grouping <br />
+PlayDirection - direction the play is headed <br />
+TimeHandoff - UTC time of the handoff <br />
+TimeSnap - UTC time of the snap <br />
+**Yards - the yardage gained on the play (RESPONSE VARIABLE)** <br />
+PlayerHeight - player height (ft-in) <br />
+PlayerWeight - player weight (lbs) <br />
+PlayerBirthDate - birthdate (mm/dd/yyyy) <br />
+PlayerCollegeName - where the player attended college <br />
+Position - the player's position (the specific role on the field that they typically play) <br />
+HomeTeamAbbr - home team abbreviation <br />
+VisitorTeamAbbr - visitor team abbreviation <br />
+Week - week into the season <br />
+Stadium - stadium where the game is being played <br />
+Location - city where the game is being played <br />
+StadiumType - description of the stadium environment <br />
+Turf - description of the field surface <br />
+GameWeather - description of the game weather <br />
+Temperature - temperature (deg F) <br />
+Humidity - humidity <br />
+WindSpeed - wind speed in miles/hour <br />
+WindDirection - wind direction <br />
 
 # Outline of approach
 The response variable in our prediction model would be the yardage
@@ -76,11 +76,11 @@ explore classification techniques that would classify training feature vectors t
 and use the prior knowledge to categorize our test data. Testing data will be prepared by an
 appropriate splitting of training data (Percentage and cross validation techniques are yet to be
 decided).
-
+<div style="text-align:center">
 ![yarddistribution](https://github.com/jhess/NFL-Big-Data-Bowl/assets/1844404/568a71ff-a545-4c03-96c4-4d7638110128)
 
   Figure 1: Distribution of Yardage in Training Data
-
+</div>
 Use dimensionality reduction, specifically principal component analysis (PCA) to reduce
 the total number of features, columns, into the few most important contributing features to the
 overall variance of the data. We expect to explore maximum likelihood based models as it would

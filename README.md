@@ -77,10 +77,10 @@ and use the prior knowledge to categorize our test data. Testing data will be pr
 appropriate splitting of training data (Percentage and cross validation techniques are yet to be
 decided).
 
-<img src="https://github.com/jhess/NFL-Big-Data-Bowl/assets/1844404/568a71ff-a545-4c03-96c4-4d7638110128" />
+<img src="https://github.com/jhess/NFL-Big-Data-Bowl/output/yarddistribution.png" /> <br />
 <div style="text-align:center">
   Figure 1: Distribution of Yardage in Training Data 
-</div>
+</div> <br />
 
 
 Use dimensionality reduction, specifically principal component analysis (PCA) to reduce
@@ -89,18 +89,19 @@ overall variance of the data. We expect to explore maximum likelihood based mode
 allow us to extract a likelihood probability vector.
 
 # Preprocessing
-Set the datasource in preprocess.py script by modifying the variable,  train_file_path = '../../nfl-big-data-bowl-2020/train.csv'
+Set the datasource in preprocess.py script by modifying the variable: <br />
+`train_file_path = '../../nfl-big-data-bowl-2020/train.csv'`
 
 # PCA plots
 PCA plots: pca explained variance is plotted against number of components and also
 pca heatmap shows the correlation of features with PCA components. 11 components are
 selected as 50% of the variance is explained.
 
-To generate the plots run:
+To generate the plots run: <br />
 `python naive_bayes.py`
 
 # Naive Bayes Model
-To generate Naive Bayes results, first ensure that preprocess.py is pointing to the correct directory if the default is not the location of your training data. Then, run:
+To generate Naive Bayes results, first ensure that preprocess.py is pointing to the correct directory if the default is not the location of your training data. Then, run: <br />
 `python naive_bayes.py`
 
 Exit figures to continue program

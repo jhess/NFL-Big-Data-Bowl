@@ -1,4 +1,4 @@
-# NflBigDataBowl
+# NfFL Big Data Bowl: Predicting Yard Gain
 
 # Preprocessing
 Set the datasource in preprocess.py script by modifying the variable,  train_file_path = '../../nfl-big-data-bowl-2020/train.csv'

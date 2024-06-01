@@ -8,7 +8,7 @@ cumulative probability distribution of the possible yardage.
 
 # Source of Data
 The data is from Kaggle, the link is at
-https://www.kaggle.com/c/nfl-big-data-bowl-2020/data
+https://www.kaggle.com/c/nfl-big-data-bowl-2020/data.
 
 # Data description
 Each row in the file corresponds to a single player's involvement in a single play.

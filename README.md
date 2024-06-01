@@ -14,15 +14,12 @@ https://www.kaggle.com/c/nfl-big-data-bowl-2020/data
 Each row in the file corresponds to a single player's involvement in a single play.
 All the columns are contained in a csv file. The rows have been grouped by the PlayId column. The
 following data columns are available for analysis. The response variable has been highlighted.
-GameId - a unique game identifier
-/n
-PlayId - a unique play identifier
-/n
-Team - home or away
-/n
-X - player position along the long axis of the field. See figure below.
-Y - player position along the short axis of the field. See figure below.
-S - speed in yards/second
+GameId - a unique game identifier <br />
+PlayId - a unique play identifier <br />
+Team - home or away <br />
+X - player position along the long axis of the field. See figure below. <br />
+Y - player position along the short axis of the field. See figure below. <br />
+S - speed in yards/second <br />
 A - acceleration in yards/second^2
 Dis - distance traveled from prior time point, in yards
 Orientation - orientation of player (deg)

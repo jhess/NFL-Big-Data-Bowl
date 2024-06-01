@@ -79,7 +79,7 @@ decided).
 
 ![yarddistribution](https://github.com/jhess/NFL-Big-Data-Bowl/assets/1844404/568a71ff-a545-4c03-96c4-4d7638110128)
 
-Figure 1: Distribution of Yardage in Training Data
+  Figure 1: Distribution of Yardage in Training Data
 
 Use dimensionality reduction, specifically principal component analysis (PCA) to reduce
 the total number of features, columns, into the few most important contributing features to the
@@ -95,10 +95,10 @@ pca heatmap shows the correlation of features with PCA components. 11 components
 selected as 50% of the variance is explained.
 
 To generate the plots run:
-python naive_bayes.py
+`python naive_bayes.py`
 
 # Naive Bayes Model
 To generate Naive Bayes results, first ensure that preprocess.py is pointing to the correct directory if the default is not the location of your training data. Then, run:
-python naive_bayes.py
+`python naive_bayes.py`
 
 Exit figures to continue program

@@ -77,7 +77,7 @@ and use the prior knowledge to categorize our test data. Testing data will be pr
 appropriate splitting of training data (Percentage and cross validation techniques are yet to be
 decided).
 <div style="text-align:center">
-![yarddistribution](https://github.com/jhess/NFL-Big-Data-Bowl/assets/1844404/568a71ff-a545-4c03-96c4-4d7638110128)
+<img src="![yarddistribution](https://github.com/jhess/NFL-Big-Data-Bowl/assets/1844404/568a71ff-a545-4c03-96c4-4d7638110128)" />
 
   Figure 1: Distribution of Yardage in Training Data
 </div>

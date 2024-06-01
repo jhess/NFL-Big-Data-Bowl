@@ -15,8 +15,11 @@ Each row in the file corresponds to a single player's involvement in a single pl
 All the columns are contained in a csv file. The rows have been grouped by the PlayId column. The
 following data columns are available for analysis. The response variable has been highlighted.
 GameId - a unique game identifier
+/n
 PlayId - a unique play identifier
+/n
 Team - home or away
+/n
 X - player position along the long axis of the field. See figure below.
 Y - player position along the short axis of the field. See figure below.
 S - speed in yards/second

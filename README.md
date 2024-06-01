@@ -82,6 +82,7 @@ decided).
   Figure 1: Distribution of Yardage in Training Data 
 </div>
 
+
 Use dimensionality reduction, specifically principal component analysis (PCA) to reduce
 the total number of features, columns, into the few most important contributing features to the
 overall variance of the data. We expect to explore maximum likelihood based models as it would

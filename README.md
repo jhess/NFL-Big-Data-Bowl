@@ -10,7 +10,7 @@ cumulative probability distribution of the possible yardage.
 The data is from Kaggle, the link is at
 https://www.kaggle.com/c/nfl-big-data-bowl-2020/data
 
-# Data description : 
+# Data description
 Each row in the file corresponds to a single player's involvement in a single play.
 All the columns are contained in a csv file. The rows have been grouped by the PlayId column. The
 following data columns are available for analysis. The response variable has been highlighted.
@@ -76,6 +76,9 @@ explore classification techniques that would classify training feature vectors t
 and use the prior knowledge to categorize our test data. Testing data will be prepared by an
 appropriate splitting of training data (Percentage and cross validation techniques are yet to be
 decided).
+
+![yarddistribution](https://github.com/jhess/NFL-Big-Data-Bowl/assets/1844404/568a71ff-a545-4c03-96c4-4d7638110128)
+Figure 1: Distribution of Yardage in Training Data
 
 Use dimensionality reduction, specifically principal component analysis (PCA) to reduce
 the total number of features, columns, into the few most important contributing features to the

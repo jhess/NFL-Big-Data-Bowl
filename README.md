@@ -78,6 +78,7 @@ appropriate splitting of training data (Percentage and cross validation techniqu
 decided).
 
 ![yarddistribution](https://github.com/jhess/NFL-Big-Data-Bowl/assets/1844404/568a71ff-a545-4c03-96c4-4d7638110128)
+
 Figure 1: Distribution of Yardage in Training Data
 
 Use dimensionality reduction, specifically principal component analysis (PCA) to reduce

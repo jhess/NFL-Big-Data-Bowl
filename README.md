@@ -6,6 +6,11 @@ learning models. The problem is available as a Kaggle competition
 (https://www.kaggle.com/c/nfl-big-data-bowl-2020). The prediction will be in terms of a
 cumulative probability distribution of the possible yardage.
 
+## Contributors
+Justin Hess </br>
+Mohammed Laota </br>
+Malith Jayaweera
+
 # Source of Data
 The data is from Kaggle, the link is at
 https://www.kaggle.com/c/nfl-big-data-bowl-2020/data.

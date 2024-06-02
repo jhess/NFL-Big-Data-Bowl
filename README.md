@@ -18,7 +18,7 @@ https://www.kaggle.com/c/nfl-big-data-bowl-2020/data.
 # Data description
 Each row in the file corresponds to a single player's involvement in a single play.
 All the columns are contained in a csv file. The rows have been grouped by the PlayId column. The
-following data columns are available for analysis. The response variable has been highlighted.
+following data columns are available for analysis. The response variable has been highlighted. <br />
 **GameId** - a unique game identifier <br />
 **PlayId** - a unique play identifier <br />
 **Team** - home or away <br />
